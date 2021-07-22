@@ -1,0 +1,28 @@
+
+/* Ajuster la taille de la grille*/
+@media (min-width: 1200px){
+.container{
+    width: 1230px;
+ }
+}
+
+/* Changer couleurs des colonnes de la grille */
+.pink {
+    background-color: #f5989d;
+}
+
+.blue {
+    background-color: #615f7d;
+}
+
+.green {
+    background-color: #09a298;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+h1{
+    color:#ffffff;
+}
