@@ -1,11 +1,4 @@
 
-/* Ajuster la taille de la grille*/
-@media (min-width: 1200px){
-.container{
-    width: 1230px;
- }
-}
-
 /* Changer couleurs des colonnes de la grille */
 .pink {
     background-color: #f5989d;
@@ -21,8 +14,169 @@
 
 body{
     font-family:'Open Sans', sans-serif;
+    background-image:url(../img/Background01.jpg);
+    background-repeat:no-repeat;
+    
 }
 
 h1{
     color:#ffffff;
+}
+
+/********************************** HEADER *************************/
+header{
+   
+}
+
+#head{
+    display:flex;
+    margin-left:200px;
+}
+
+header img{
+    margin-top:18px;
+    margin-left:15px;
+}
+
+header h2{
+    margin-top:5px;
+    margin-left:10px;
+}
+
+
+/*********************************** MASTHEAD **********************/
+
+#Masthead{
+    margin-left:200px;
+    margin-top:100px;
+}
+
+#text_masthead{
+    padding-top:350px;
+}
+
+#Masthead p{
+    color:#ffffff;
+}
+
+#Masthead a{
+    color:#ffffff;
+}
+
+#Masthead a:hover{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#iphone{
+    width:1600px;
+    height:1200px;
+    margin-left:5px;
+    margin-top:-500px;
+
+}
+
+
+/******************************* DESCRIPTION TEXT  *********************/
+
+#Text_1{
+    margin-top:-200px;
+    margin-left:200px;
+    margin-bottom:100px;
+}
+
+#text_desc{
+    display:flex;
+    flex-direction: 2 column;
+}
+
+.text_gauche{
+    padding-top:10px;
+}
+
+.text_droite{
+    padding-top:170px;
+}
+
+/*********************************** BOX GRID **************************************/
+
+#Boxgrid{
+    
+}
+
+#Boxgrid2{
+    display:flex;
+}
+
+
+/************************************* Medias queries ******************************/
+
+
+/*xs*/
+@media (max-width: 575.98px){
+    .container{
+        max-width:575.96px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*sm*/
+@media (min-width:576px) and (max-width: 767.98px){
+    .container{
+        max-width:767.96px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*md*/
+@media (min-width:768px) and (max-width: 891.98px){
+    .container{
+        max-width:891.96px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*lg*/
+@media (min-width:892px) and (max-width: 1199.98px){
+
+    .container{
+        max-width:1199.96px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+/*xl*/
+@media (min-width:1200px) and (max-width: 2399.98px){
+    .container{
+        max-width:2399.96px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+
+
+
+
 }
