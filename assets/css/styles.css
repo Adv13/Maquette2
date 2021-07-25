@@ -101,13 +101,41 @@ header h2{
 /*********************************** BOX GRID **************************************/
 
 #Boxgrid{
-    
+    margin-bottom:100px;
 }
 
 #Boxgrid2{
+    margin-left:200px;
     display:flex;
 }
 
+.box{
+    width:250px;
+    height:300px;
+    padding-left:40px;
+    padding-top:40px;
+    color:#ffffff;
+}
+
+
+/************************************* 4 colonnes text ****************************/
+
+#FourCol{
+    margin-left:180px;
+}
+
+#Col4{
+    display:flex;
+    margin-top:50px;
+}
+
+.textCol{
+    display:flex;
+    flex-direction: column;
+    width:200px;
+    height:300px;
+    line-height: 2em;
+}
 
 /************************************* Medias queries ******************************/
 
