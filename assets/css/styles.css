@@ -137,6 +137,134 @@ header h2{
     line-height: 2em;
 }
 
+
+/************************************* BIG PICTURE 2 ***************************/
+
+#BigPic2{
+    background-image:url(../img/Background02.jpg);
+    background-repeat:no-repeat;
+    height:1080px;
+}
+
+.textBigPic2{
+    padding-top:700px;
+    margin-left:200px;
+    width:500px;
+    height:500px;
+}
+
+.white{
+    color:#ffffff;
+}
+
+
+/************************************* COLOUR INFO *********************************/
+
+#ColourInfo{
+    background-color:#82ca9c;
+    padding-left:200px;
+    padding-top:150px;
+    padding-bottom:150px;
+}
+
+#Reasons{
+    display:flex;
+}
+
+.titleReasons{
+    padding-bottom:50px;
+    color:#ffffff;
+}
+
+.textColInfo{
+    display:flex;
+    flex-direction: column;
+    color:#ffffff;
+    margin-right:10px;
+    line-height: 2em;
+}
+
+#ColourInfo p{
+    width:350px;
+    height:200px;
+    font-size:0.8em;
+    
+}
+
+
+/************************************* Buying part *******************************/
+
+
+/************************************* FOOTER *************************************/
+
+footer{
+    background-color:#192431;
+    height:700px;
+}
+
+#footerText{
+    display:flex;
+    padding-top:150px;
+}
+
+#Positionnement{
+    width:900px;
+    height:500px;
+    padding-left: 200px;
+}
+
+#PartieGauche{
+    display:flex;
+    justify-content: space-between;
+    width:500px;
+    height:400px;
+}
+
+#GetInTouch{
+    display:flex;
+    flex-direction: column;
+    width:1200px;
+    height:180px;
+    margin-bottom:10px;
+}
+
+#StayInTouch{
+   
+}
+
+#StayInTouch input{
+    background-color:#ffffff;
+    width:400px;
+    height:50px;
+    border:none;
+    border-radius:0.2vmin 0vmin 0vmin 0.2vmin;
+}
+
+#StayInTouch button{
+    background-color:#82ca9c;
+    width:60px;
+    height:50px;
+    border:none;
+    border-radius:0.2vmin 0.2vmin 0.2vmin 0.2vmin;
+    margin-left:-5px;
+
+}
+
+#StayInTouch i{
+    color:#192431;
+}
+
+#element{
+    padding-top:13px;
+}
+
+#reality{
+    width:400px;
+    height:50px;
+    color:#535353;
+    font-size:0.8em;
+}
+
 /************************************* Medias queries ******************************/
 
 
